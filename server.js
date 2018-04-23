@@ -10,7 +10,7 @@ app.all('*', (reg, res, next)=>{
 
 
 
-app.listen(8080, ()=>{
+app.listen(process.env.PORT, ()=>{
 
     console.log("The fun starts dfgsdfh8080");
 });
