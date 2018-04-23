@@ -5,17 +5,18 @@ const app = express(
 );
 
 app.all('*', (reg, res, next)=>{
-   next();
+    next();
 });
 
-app.listen(8080, ()=>{
+let port = process.env.PORT;
+app.listen(port, ()=>{
     console.log("The fun starts dfgsdfh8080");
 });
 
 app.get('/hello', (reg, res, next)=>{
-   res.status(200).json({
-       'msg' : 'Hello xD'
-   });
+    res.status(200).json({
+        'msg' : 'Hello xD'
+    });
 });
 
 module.exports = app;
