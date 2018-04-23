@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a1328736-bba0-4d64-9fc5-e1bfd1b63bc9" name="Default" comment="" />
+=======
+    <list default="true" id="a1328736-bba0-4d64-9fc5-e1bfd1b63bc9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile.js" afterDir="false" />
+    </list>
+>>>>>>> parent of 5937e26... heroku
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,7 +24,11 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
+<<<<<<< HEAD
               <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+=======
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> parent of 5937e26... heroku
             </state>
           </provider>
         </entry>
@@ -27,6 +37,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+<<<<<<< HEAD
               <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
@@ -37,6 +48,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-start-column="3" selection-end-column="22" />
+=======
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+>>>>>>> parent of 5937e26... heroku
             </state>
           </provider>
         </entry>
@@ -56,7 +70,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/package.json" />
+=======
+        <option value="$PROJECT_DIR$/server.js" />
+>>>>>>> parent of 5937e26... heroku
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile.js" />
         <option value="$PROJECT_DIR$/server.js" />
@@ -142,12 +160,20 @@
       <option name="presentableId" value="Default" />
       <updated>1524485047922</updated>
       <workItem from="1524485049306" duration="821000" />
+<<<<<<< HEAD
       <workItem from="1524486381078" duration="2200000" />
+=======
+      <workItem from="1524486381078" duration="917000" />
+>>>>>>> parent of 5937e26... heroku
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3021000" />
+=======
+    <option name="totallyTimeSpent" value="1738000" />
+>>>>>>> parent of 5937e26... heroku
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -187,23 +213,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret selection-start-column="3" selection-end-column="22" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> parent of 5937e26... heroku
         </state>
       </provider>
     </entry>
