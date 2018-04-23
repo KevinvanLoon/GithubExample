@@ -8,12 +8,10 @@ app.all('*', (reg, res, next)=>{
    next();
 });
 
-<<<<<<< HEAD
-const port = 8080;
-app.listen(port, ()=>{
-=======
+
+
 app.listen(8080, ()=>{
->>>>>>> parent of 5937e26... heroku
+
     console.log("The fun starts dfgsdfh8080");
 });
 
