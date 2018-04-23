@@ -9,8 +9,7 @@ app.all('*', (reg, res, next)=>{
 });
 
 app.listen(8080, ()=>{
-    console.log("The fun starts sadfagsdasdfasfgadfg" +
-        "at 9 090");
+    console.log("The fun starts 8080");
 });
 
 module.exports = app;
