@@ -8,7 +8,7 @@ app.all('*', (reg, res, next)=>{
     next();
 });
 
-const port = process.env.PORT;
+const port = 8080;
 app.listen(port, ()=>{
     console.log("The fun starts dfgsdfh8080");
 });
