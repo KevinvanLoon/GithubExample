@@ -17,7 +17,7 @@ app.listen(process.env.PORT, ()=>{
 
 app.get('/hello', (reg, res, next)=>{
    res.status(200).json({
-       'msg' : 'Hello xD'
+       'msg' : 'Nieuwe versie'
    });
 });
 
