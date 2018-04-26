@@ -1,24 +1,21 @@
 const express = require('express');
-//const router = require('./router/app1');
 
-const app = express(
-);
+const app = express();
 
-app.all('*', (reg, res, next)=>{
-   next();
+app.get('/api/hello', (request, res, next) =>{
+    console.log(request.url);
+    res.status(500);
+    res.json("Hello");
+    console.log("gelukt");
+    next();
 });
 
-
-
-app.listen(process.env.PORT, ()=>{
-
-    console.log("The fun starts dfgsdfh8080");
+app.use('/apiv3', require('./routes/apiv3'));
+app.all('*', (request, respons)=>{
+    respons.status(500);
 });
-
-app.get('/hello', (reg, res, next)=>{
-   res.status(200).json({
-       'msg' : 'Nieuwe versie'
-   });
+//
+app.listen(8080, () =>{
+    console.log("the magic happens at !" +
+        "8080");
 });
-
-module.exports = app;
