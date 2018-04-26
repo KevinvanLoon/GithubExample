@@ -15,7 +15,7 @@ app.all('*', (request, respons)=>{
     respons.status(500);
 });
 //
-app.listen(8080, () =>{
+app.listen(process.env.PORT, () =>{
     console.log("the magic happens at !" +
         "8080");
 });
